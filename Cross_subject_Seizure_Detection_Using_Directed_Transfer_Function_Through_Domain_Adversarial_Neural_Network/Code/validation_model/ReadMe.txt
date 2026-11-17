@@ -12,6 +12,7 @@ Code/validation_model
 	|---Subjects.mat		# 4隻狗與2位患者資料資訊，用於訓練時讀取資料用
 	|---KaggleValidationIdx	# 事先產生的validation data index, 用於訓練時劃分train data 和 validation data 
 |--- dog_2d_model.mlx		# 2D-DANN/2D-CNN 的 4隻狗訓練程式
+|--- dog_2d_model_hypertune.mlx		# 2D-DANN/2D-CNN 的 4隻狗最佳超參數找尋
 |--- patient_2d_model.mlx		# 2D-DANN/2D-CNN 的 2位患者訓練程式
 |--- dog_1d_model_channelpair.mlx	# 1D-DANN/1D-CNN 的4隻狗沿頻道對訓練方向的訓練程式
 |--- dog_1d_model_frequency.mlx	# 1D-DANN/1D-CNN 的4隻狗沿頻率訓練方向的訓練程式
